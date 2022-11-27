@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="quiz-box">
+            <div id="quiz">
+                <h1> Quiz </h1>
+                <div class="quiz-header">
+                    <p id="progress">Question x of y</p>
+                    <p id="count-down"></p>
+                </div>
+                <p id="question"></p>
+
+                <div class="buttons">
+                    <button class="btn" id="btn0">A. <span id="choice0"></span></button>
+                    <button class="btn" id="btn1">B. <span id="choice1"></span></button>
+                    <button class="btn" id="btn2">C. <span id="choice2"></span></button>
+                    <button class="btn" id="btn3">D. <span id="choice3"></span></button>
+                    <div class="total_que">
+                        <!-- Here I've inserted Question Count Number from JavaScript -->
+                    </div>
+                    <button class="next_btn">Next Question</button>
+                    
+                </div>
+
+                <hr>
+                <footer>
+                    <p><div class="info">1. You will have only 20 minutes to complete the test.</div>
+                        <div class="info">2. Once you select your answer, it can't be undone.</div>
+                        <div class="info">3. You can't select any option once time goes off.</div>
+                        <div class="info">4.You'll get points on the basis of your correct answers. .</div>
+                        <div class="info">5. All The Best.</div></p>
+
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+</body>
+
+</html>
